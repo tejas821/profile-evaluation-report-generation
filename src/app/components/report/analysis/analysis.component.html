@@ -1,0 +1,8 @@
+<div id="reportContent">
+    <h1>My Report</h1>
+    <app-user-details></app-user-details>
+    <div class="card flex justify-content-center">
+        <p-chart type="radar" [data]="data" [options]="options" />
+    </div>
+</div>
+<button pButton type="submit" label="Download PDF" (click)="downloadAsPDF()"></button>

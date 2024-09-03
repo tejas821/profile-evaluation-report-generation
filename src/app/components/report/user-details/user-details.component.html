@@ -1,0 +1,15 @@
+<div class="card">
+    <form (ngSubmit)="onSubmit()" #radarForm="ngForm">
+        <div class="p-field">
+            <label for="labels">Labels (comma-separated)</label>
+            <input type="text" id="labels" pInputText [(ngModel)]="labelsInput" name="labels" required />
+        </div>
+
+        <div class="p-field">
+            <label for="data">Data (comma-separated)</label>
+            <input type="text" id="data" pInputText [(ngModel)]="dataInput" name="data" required />
+        </div>
+
+        <button pButton type="submit" label="Generate Radar Chart"></button>
+    </form>
+</div>
