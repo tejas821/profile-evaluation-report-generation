@@ -25,6 +25,21 @@ This Angular application allows users to input data related to their skills, dyn
 - **PrimeNG**: Utilized for UI components and charts.
 - **html2canvas & jsPDF**: For capturing HTML content and generating downloadable PDFs.
 
+## Usage
+
+1. **Input Skills**: 
+   - Navigate to the provided form on the application.
+   - Enter various skills along with their corresponding levels.
+
+2. **Generate Report**: 
+   - After filling in the form, click the "Submit" button.
+   - The application will dynamically generate a radar chart that visualizes the entered skill levels.
+
+3. **Download PDF**: 
+   - Once the radar chart is generated, click the "Download as PDF" button.
+   - The application will convert the chart and related data into a PDF file, which will be downloaded automatically.
+
+
 ## Getting Started
 
 ### Prerequisites
